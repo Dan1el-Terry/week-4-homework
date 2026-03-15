@@ -87,8 +87,67 @@ namespace AlgoDS.Searching
         }
     }
 }
-namespace payments
+namespace AlgoDS.payments
 {
-    
-    
+     public interface IPaymentMethod
+    {
+        void Pay(decimal amount);
+    }
+
+     public class CreditCardPayment : IPaymentMethod
+    {
+        public void Pay(decimal amount)
+        {
+            Console.WriteLine($"Paid {amount} using Credit Card.");
+        }
+    }
+
+    public class PaypalPayment : IPaymentMethod
+    {
+        public void Pay(decimal amount)
+        {
+            Console.WriteLine($"Paid {amount} using PayPal.");
+        }
+    }
+
+    public class ReceiptSender
+    {
+        public void SendReceipt(string recipient, decimal amount)
+        {
+            Console.WriteLine($"Receipt sent to {recipient} for {amount}");
+        }
+    }
+
+    // Generic ReceiptSender
+    public class ReceiptSender<T>
+    {
+        public void SendReceipt(T recipient, decimal amount)
+        {
+            Console.WriteLine($"Receipt sent to {recipient} for {amount}");
+        }
+    }
+
+    public class Receipt
+    {
+        public string Recipient { get; set; }
+        public decimal Amount { get; set; }
+
+        public override string ToString()
+        {
+            return $"Receipt for {Recipient}: {Amount:C}";
+        }
+    } 
+public class SortedCollection<T> where T : IComparable<T>
+{
+    private List<T> items = new List<T>();
+    public void AddItem(T item)
+    {
+        items.Add(item);
+        items.Sort();
+    }
+    public void PrintAll()
+    {
+        foreach(var item in items) Console.WriteLine(item);
+    }
+}
 }
