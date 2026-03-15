@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 using AlgoDS.Searching;
 using System.Collections.Generic;
+using AlgoDS.payments;
 // BenchmarkRunner.Run<MyBenchmark>();
 [MemoryDiagnoser] // Shows memory usage in benchmark results
 [SimpleJob(iterationCount: 10)] // Runs 10 iterations
@@ -82,6 +83,23 @@ public class Program
         string target1 = "blaad";  // This is the element we want to find
         int result2 = BinarySearch<string>.Searching(arr2, target1);  // Perform the binary search
         Console.WriteLine(result2);  // Expected Output: 2 (index of "cherry")
+
+        // Week 4 example piece
+        IPaymentMethod method = new CreditCardPayment();
+        method.Pay(100);
+
+        //non generic receipt sender
+        ReceiptSender sender = new ReceiptSender();
+        sender.SendReceipt("customer@example.com", 100);
+
+        //Generic receipt sender
+        ReceiptSender<string> genericSender = new ReceiptSender<string>();
+        genericSender.SendReceipt("customer@example.com", 200);
+
+        //Using Receipt object
+        Receipt receipt = new Receipt { Recipient = "customer@example.com", Amount = 300 };
+        ReceiptSender<Receipt> receiptSender = new ReceiptSender<Receipt>();
+        receiptSender.SendReceipt(receipt, receipt.Amount);
     }
 }
 }
