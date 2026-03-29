@@ -1,0 +1,14 @@
+C:\Students\24374442\D201\lab\lab\LabApp\bin\Debug\net8.0\LabApp.exe
+C:\Students\24374442\D201\lab\lab\LabApp\bin\Debug\net8.0\LabApp.deps.json
+C:\Students\24374442\D201\lab\lab\LabApp\bin\Debug\net8.0\LabApp.runtimeconfig.json
+C:\Students\24374442\D201\lab\lab\LabApp\bin\Debug\net8.0\LabApp.dll
+C:\Students\24374442\D201\lab\lab\LabApp\bin\Debug\net8.0\LabApp.pdb
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\LabApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\LabApp.AssemblyInfoInputs.cache
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\LabApp.AssemblyInfo.cs
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\LabApp.csproj.CoreCompileInputs.cache
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\LabApp.dll
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\refint\LabApp.dll
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\LabApp.pdb
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\LabApp.genruntimeconfig.cache
+C:\Students\24374442\D201\lab\lab\LabApp\obj\Debug\net8.0\ref\LabApp.dll

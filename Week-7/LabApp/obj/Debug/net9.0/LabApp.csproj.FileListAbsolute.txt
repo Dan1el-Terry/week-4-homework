@@ -1,0 +1,14 @@
+C:\stuff\MIT\ap\week7\lab\LabApp\bin\Debug\net9.0\LabApp.exe
+C:\stuff\MIT\ap\week7\lab\LabApp\bin\Debug\net9.0\LabApp.deps.json
+C:\stuff\MIT\ap\week7\lab\LabApp\bin\Debug\net9.0\LabApp.runtimeconfig.json
+C:\stuff\MIT\ap\week7\lab\LabApp\bin\Debug\net9.0\LabApp.dll
+C:\stuff\MIT\ap\week7\lab\LabApp\bin\Debug\net9.0\LabApp.pdb
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\LabApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\LabApp.AssemblyInfoInputs.cache
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\LabApp.AssemblyInfo.cs
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\LabApp.csproj.CoreCompileInputs.cache
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\LabApp.dll
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\refint\LabApp.dll
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\LabApp.pdb
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\LabApp.genruntimeconfig.cache
+C:\stuff\MIT\ap\week7\lab\LabApp\obj\Debug\net9.0\ref\LabApp.dll
